@@ -74,7 +74,7 @@ if(myArgs.heroku){ // --heroku flag to behave according to Heroku's specs
     
     mongoHost = 'predrag56:'+myArgs.pass+'@ds147926.mlab.com:47926';
     //mongoHost = 'heroku_5z00hpxl:64g1tjbd5ic3e2q9p5p07uqsbs@ds147926.mlab.com:47926/heroku_5z00hpxl';
-    mongoDBName = 'predrag56';
+    mongoDBName = 'heroku_5z00hpxl';
 }else {
     var mongoPort = (myArgs.mongoPort || 27017);
     var mongoServer = (myArgs.mongoServer || 'localhost');
