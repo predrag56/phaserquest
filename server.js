@@ -71,7 +71,7 @@ if(myArgs.waitForDatabase) {
 if(myArgs.heroku){ // --heroku flag to behave according to Heroku's specs
     //mongoHost = 'heroku_4tv68zls:'+myArgs.pass+'@ds141368.mlab.com:41368';
     //mongoHost = 'heroku_5z00hpxl:'+myArgs.pass+'@ds147926.mlab.com:47926/heroku_5z00hpxl';
-    
+    myArgs.pass='Prexon56!'
     mongoHost = 'predrag56:'+myArgs.pass+'@ds147926.mlab.com:47926';
     //mongoHost = 'heroku_5z00hpxl:64g1tjbd5ic3e2q9p5p07uqsbs@ds147926.mlab.com:47926/heroku_5z00hpxl';
     mongoDBName = 'heroku_5z00hpxl';
