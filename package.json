@@ -1,5 +1,5 @@
 {
-  "name": "heroku_5z00hpxl",
+  "name": "phaserquest",
   "version": "1.0.0",
   "description": "Clone of Mozilla's BrowserQuest with the Phaser engine",
   "main": "server.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/predrag56/phaserquest"
+    "url": "git+https://github.com/Jerenaux/phaserquest"
   },
   "keywords": [
     "Browserquest",
@@ -18,9 +18,9 @@
     "game",
     "html5"
   ],
-  "author": "predrag vukovic",
+  "author": "Jerome Renaux",
   "license": "MIT",
-  "homepage": "https://github.com/predrag56/phaserquest#readme",
+  "homepage": "https://github.com/Jerenaux/phaserquest#readme",
   "dependencies": {
     "clone": "^2.1.0",
     "express": "^4.14.0",
