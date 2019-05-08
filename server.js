@@ -69,8 +69,12 @@ if(myArgs.waitForDatabase) {
 }
 
 if(myArgs.heroku){ // --heroku flag to behave according to Heroku's specs
-    mongoHost = 'heroku_4tv68zls:'+myArgs.pass+'@ds141368.mlab.com:41368';
-    mongoDBName = 'heroku_4tv68zls';
+    //mongoHost = 'heroku_     	//4tv68zls:'+myArgs.pass+'@ds141368.mlab.com:41368';
+    //mongoDBName = 'heroku_4tv68zls';
+    mongoHost = 'heroku_nl7x0l6c:r4da20k42uocgk4okqrrmcufh0@ds147926.mlab.com:47926';
+    mongoDBName = 'heroku_nl7x0l6c';
+
+
 }else {
     var mongoPort = (myArgs.mongoPort || 27017);
     var mongoServer = (myArgs.mongoServer || 'localhost');
